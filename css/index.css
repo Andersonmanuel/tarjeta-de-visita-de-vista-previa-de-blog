@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body {
+    background-color: rgba(244, 208, 78, 1);
+ }
+
+ /* todo el contenedor card */
+.card {
+    background-color: white;
+    width: 384px;
+    height: 522px;
+    border-radius: 20px;
+    border: solid 1px black;
+    margin: auto;
+    margin-top: 60px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 1);
+}
+
+/* imagen del blog */
+.card-img {
+    width: 340px;
+    height: 200px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.img-blog {
+    width: 100%;
+}
+
+/*contenido*/
+.section-card {
+    margin: 20px;
+}
+
+button {
+    background-color: rgba(244, 208, 78, 1);
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 7px;
+    font-family: "Figtree", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+p {
+    font-family: "Figtree", sans-serif;
+    font-size: 19px;
+    margin: 10px 5px 5px 0;
+}
+
+h2 {
+    font-family: "Figtree", sans-serif;
+    font-weight: bold;
+}
+
+h2:hover {
+    color: rgba(244, 208, 78, 1);
+    cursor: pointer;
+}
+
+.description {
+    color: rgba(107, 107, 107, 1);
+    font-weight: bold;
+}
+
+/* perfil del autor */
+.section-autor {
+    margin: 20px;
+    display: flex;
+}
+
+.img-perfil{
+    width: 40px;
+    margin: 0 15px 0 0;
+}
+
+.text-autor {
+    font-weight: bold;
+}
+
+/* footer css */
+.attribution { 
+    font-size: 16px; 
+    text-align: center; 
+    font-family: "Figtree", sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
